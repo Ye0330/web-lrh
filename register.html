@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New users register</title>
+</head>
+<body>
+<h1>用户注册</h1>
+
+<form method="post" action="/register">
+  <div>
+  用户名：<input type="text" name="user">
+  </div>
+
+  <div>
+  密码；<input type="password" name="password">
+  </div>
+
+  <div>
+  性别：
+    <input type="radio" name="gender" value="1">男
+    <input type="radio" name="gender" value="2">女
+    <input type="radio" name="gender" value="3">其他
+  </div>
+  <div>
+  性取向：
+    <input type="checkbox" name="so" value="1">男
+    <input type="checkbox" name="so" value="2">女
+    <input type="checkbox" name="so" value="3">其他
+  </div>
+
+  <div>
+  擅长技能：
+  <select name="skill" multiple>
+    <option value="sing">唱</option>
+    <option value="dance">跳</option>
+    <option value="rap">rap</option>
+    <option value="basketball">篮球</option>
+    <option value="ji">只因</option>
+  </select>
+</div>
+
+<div>
+   备注：<textarea rows="1" name="info"></textarea>
+</div>
+<div>
+  <input type="button" value="假-提交（这只是一个没什么用的按钮">
+</div>
+<div>
+  <input type="submit" value="真-提交">
+</div>
+</form>
+
+<!--<div><a href="/get/new">home page</a></div>-->
+
+</body>
+</html>
