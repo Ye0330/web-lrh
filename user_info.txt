@@ -1,1 +1,0 @@
-{"user": "wy", "password": "wy20070330", "gender": "1", "sexual_orientation": "2", "skill": ["sing"], "info": "sss"}{"user": "xxx", "password": "xxxxx", "gender": "3", "sexual_orientation": "3", "skill": ["dance"], "info": "sss"}
